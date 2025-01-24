@@ -1,8 +1,13 @@
-# Stacja-SatNOGS-UJ
-Projekt budowy stacji do odbioru danych satelitarnych w ramach platformy SatNOGS 
-# Materiały 
-- [SatNOGS - Open Source global network of satellite ground-stations](https://satnogs.org/)
-- [Omnidirectional Station How To](https://wiki.satnogs.org/Omnidirectional_Station_How_To)
-- [How to build a turnstile antenna for 435Mhz (and connect it to SatNOGS network) - tutorial for beginners](https://alicja.space/blog/how-to-build-turnstile-antenna#why)
-# Odbiornik 
-# Antena 
+# Title of the project
+# Authors 
+- Author
+# Description of the project 
+Text here... 
+# Science and tech used 
+Text & plots here... 
+# State of the art 
+Text & plots here... 
+# What next?
+Text here... 
+# Sources 
+- [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
