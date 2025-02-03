@@ -1,6 +1,6 @@
 # Title of the project
 # Authors 
-- Author
+- Karolina Klimek
 # Description of the project 
 Text here... 
 # Science and tech used 
