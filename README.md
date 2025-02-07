@@ -1,4 +1,4 @@
-# Title of the project
+# Tea Temperature Sensor
 # Authors 
 - Karolina Klimek
 # Description of the project 
