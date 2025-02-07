@@ -12,7 +12,7 @@ Parts needed to make TeaTemp sensor: <br />
 Connection scheme is shown below:![image](https://github.com/user-attachments/assets/5fe416a5-7dfc-44ad-a2ea-5f58a9a82e8d) <br />
 Connection scheme was made in WOKWI simulator (https://wokwi.com/). In the scheme non-waterproof version on DS18B20 temperature sensor is connected, however connections for waterproof version are the same.<br />
 Code, which enables you to read the temperature from your sensor and send it through BLE bluetooth is available here. <br />
-Model of the package for the sensor is made of two parts bottom box and top box, .STL files for 3D printing are available here.
+Model of the package for the sensor is made of two parts bottom box and top box, .STL files for 3D printing are available in [STL_files](./STL_files/) directory. 
 # State of the art 
 TeaTemp, in it's first prototype version, allows you connect via BLE bluetooth with your smartphone and see the temperature on your phone. First you need to plug in the sensor using USB-C cable, then you can insert the waterproof sensor to your drink. To connect with the sensor you can use for example nRF Connect app, which is available both for android (https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=pl&pli=1) and IOS (https://apps.apple.com/pl/app/nrf-connect-for-mobile/id1054362403?l=pl). You have to choose the divice and connect, then in properties you can see the temperature value. 
 # What next?
