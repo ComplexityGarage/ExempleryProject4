@@ -6,9 +6,9 @@ TeaTemp is a sensor to monitor the temperature of your hot drink. Imagine that y
 # Science and tech used 
 Parts needed to make TeaTemp sensor:
 -Seeed Studio XIAO ESP32C6 (https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
--Waterproof temperature sensor DS18B20 (https://botland.com.pl/sondy-wodoodporne/1713-sonda-wodoodporna-z-czujnikiem-temperatury-ds18b20-1m-5903351242226.html)
--4.7 kΩ resistor
--Breadboard
+-Waterproof temperature sensor DS18B20 (https://botland.com.pl/sondy-wodoodporne/1713-sonda-wodoodporna-z-czujnikiem-temperatury-ds18b20-1m-5903351242226.html) //
+-4.7 kΩ resistor //
+-Breadboard //
 Connection scheme is shown here:![image](https://github.com/user-attachments/assets/5fe416a5-7dfc-44ad-a2ea-5f58a9a82e8d)
 
 Code, which enables you to read the temperature from your sensor and send it through BLE bluetooth is available here.
