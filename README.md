@@ -21,6 +21,6 @@ TeaTemp, in it's first prototype version, allows you connect via BLE bluetooth w
 # What next?
 In the future it might be good to develop separate app, through which one could connect with the sensor. In addition to monitoring the drink temperature, in such application it might be nice to add for example functionality to set target temperature and when the drink reaches this temperature, app will send you the notification, that your drink is ready! Further improvements could aim at incorporating the sensor in the bottom of the cup to make it more comfortable for the users. It might be also interesting to add battery to the sensor and maybe even wireless charging. 
 # Sources 
-- Website to create your own applications - https://appinventor.mit.edu/explore/ai2/tutorials
 - Tutorial about BLE - https://www.youtube.com/watch?v=0Yvd_k0hbVs
-- 
+- Website to create your own applications - https://appinventor.mit.edu/explore/ai2/tutorials
+- Tutorial about creating a BLE app with MIT App Inventor - https://www.youtube.com/watch?v=RvbWl8rZOoQ&t=855s
