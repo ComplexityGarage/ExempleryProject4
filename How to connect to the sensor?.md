@@ -3,8 +3,8 @@ You can use nRF Connect app to connect from your phone to the TeaTemp sensor thr
 First, you open the app and search for divices, you need to find ,,ESP32" and click ,,Connect".
 <p align="left">
     <img src="https://github.com/user-attachments/assets/dfb60e69-d3e7-448d-bf63-65b3fc62fdef" alt="Description" width="400">
-</p>
-Then you will see such screen and you need to look on ,,Unknown Characteristic" (marked on blue). 
+</p>  <br />
+Then you will see such screen and you need to look on ,,Unknown Characteristic" (marked on blue).  <br />
 <p2 align="center">
     <img src="https://github.com/user-attachments/assets/eb14fed6-c96c-4b12-a846-bec54e2bd664" alt="Description" width="300">
 </p2> <br />
