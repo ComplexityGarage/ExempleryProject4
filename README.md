@@ -1,4 +1,8 @@
 # TeaTemp Temperature Sensor
+<p align="left">
+    <img src="https://github.com/user-attachments/assets/0b0671b1-834a-4d32-a23b-7557ec20881c" alt="Description" width="600">
+</p>  <br />
+
 # Authors 
 - Karolina Klimek
 # Description of the project 
@@ -14,8 +18,10 @@ Connection scheme is shown below:![image](https://github.com/user-attachments/as
 Connection scheme was made in WOKWI simulator (https://wokwi.com/). In the scheme non-waterproof version on DS18B20 temperature sensor is connected, however connections for waterproof version are the same. <br /> <br />
 Code, which enables you to read the temperature from your sensor and send it through BLE bluetooth is available [here](./TeaTemp-code.ino). <br />
 To use the code you need to download nessesary libraries. However there are incompatibilities between the OneWire library code and the ESP32 GPIO register definitions for the ESP32-C6 platform. One of the possible solutions to this issue is to go to \OneWire\util/OneWire_direct_gpio.h and edit the code. You need to find all instances of GPIO.in, GPIO.out_w1tc, GPIO.out_w1ts, GPIO.enable_w1tc, and GPIO.enable_w1ts. Then add .val to these registers to access their raw value. You can also just change /OneWire_direct_gpio.h file to the one, which is available [here](./OneWire_direct_gpio.h). <br /> <br />
-Model of the package for the sensor is made of two parts bottom box and top box, .STL files for 3D printing are available in [STL_files](./STL_files/) directory. Models are designed for breadboard with 400 opennings ().
-
+Model of the package for the sensor is made of two parts bottom box and top box, .STL files for 3D printing are available in [STL_files](./STL_files/) directory. Models are designed for breadboard with 400 opennings (5.5 cm x 8.3 cm). Model was designed in Tinkercad (https://www.tinkercad.com/). Open package with breadboard, resistor, cables and sensor is shown on the photo below. <br />
+<p2 align="left">
+    <img src="https://github.com/user-attachments/assets/473e63a8-93c9-48ee-9b31-9b23214ccdd2" alt="Description" width="400">
+</p2>  <br />
 # State of the art 
 TeaTemp, in it's first prototype version, allows you connect via BLE bluetooth with your smartphone and see the temperature on your phone. First you need to plug in the sensor using USB-C cable, then you can insert the waterproof sensor to your drink. To connect with the sensor you can use for example nRF Connect app, which is available both for android (https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=pl&pli=1) and IOS (https://apps.apple.com/pl/app/nrf-connect-for-mobile/id1054362403?l=pl). Instructions how to connect to the sensor and how to find the temperature value are available [here](./How_to_connect_to_the_sensor.md).
 # What next?
